@@ -1,8 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'reactstrap'
 
-const coloresTecnologias = ['#dedede', '#00a2ff']
-
 export const Project = (props) => {
 
     const proyectoActual = props.proyecto
@@ -12,23 +10,23 @@ export const Project = (props) => {
     return (
         <div>
             <Row className='projectRow' style={{ backgroundColor: left ? '#eff5ff' : '#c2d8fd' }}>
-                    <Col lg={{ size: 'auto', order: left }} className='projectCol float-right'>
+                    <Col lg={{ size: 5, order: left,offset:1 }} className='projectCol'>
                         <Container>
                             <h2>{proyectoActual.titulo}</h2>
-                            <Row>
+                            <Row style={{marginLeft:1}}>
                                 {proyectoActual.tecnologias.map((item, index) =>
-                                    <Col className="tecnologia" >
-                                        <a>{item}</a>
+                                    <Col xs={{size:'auto'}} className="tecnologia" >
+                                        <h7>{item}</h7>
                                     </Col>
                                 )}
                             </Row>
                             <p>{proyectoActual.descripcion}</p>
-                            <Button color="primary">View on Github</Button>
+                            <Button onClick={() => window.location.href= proyectoActual.github } color="primary">View on Github</Button>
                         </Container>
                     </Col>
-                    <Col lg={{ size: 'auto', order: right }} className='projectCol float-left'>
+                    <Col lg={{ size: 5, order: right }} className='projectCol'>
                         <Container>
-                            <img src={require("./prueba.png")} alt="Girl in a jacket" width="600" height="300" />
+                            <img src={proyectoActual.imagenes} width="600"/>
                         </Container>
                     </Col>
             </Row>

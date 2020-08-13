@@ -6,12 +6,30 @@ import { Footer } from './components/Footer'
 
 import './App.css';
 
-const proyectoPrueba = {
+import Pentamino from './components/prueba.png'
+
+const PRELLO = {
   titulo: "PRELLO",
-  descripcion: "Descripcion muy muy completa",
-  image: "https://es.wikipedia.org/wiki/Imagen#/media/Archivo:Image_created_with_a_mobile_phone.png",
-  tecnologias: ["Python","React","Docker","Redis","Mysql"],
+  descripcion: "Aplicacion de administracion de proyectos con interfaz web",
+  imagenes: require('./components/prueba.png'),
+  tecnologias: ["Python", "React", "Docker", "Redis", "Mysql"],
   github: "https://github.com/Nico9813/Prello"
+}
+
+const CHAT = {
+  titulo: "SIMPLE WEB CHAT",
+  descripcion: "Chat y documento colaborativo entre varias personas ",
+  imagenes: Pentamino,
+  tecnologias: ["WebSockets", "Node", "React"],
+  github: "https://github.com/Nico9813/Sala_chat.git"
+}
+
+const PENTAMINO = {
+  titulo: "PENTAMINO MOBILE",
+  descripcion: "Adaptacion mobile del juego de mesa PENTAMINO",
+  imagenes: Pentamino,
+  tecnologias: ["React-native", "Redux", "PanResponder"],
+  github: "https://github.com/Nico9813/Pentamino"
 }
 
 function App() {
@@ -19,9 +37,9 @@ function App() {
     <div>
       <CustomNavBar></CustomNavBar>
       <Header></Header>
-      <Project proyecto={proyectoPrueba} contador={0}></Project>
-      <Project proyecto={proyectoPrueba} contador={1}></Project>
-      <Project proyecto={proyectoPrueba} contador={2}></Project>
+      <Project proyecto={PRELLO} contador={0}></Project>
+      <Project proyecto={CHAT} contador={1}></Project>
+      <Project proyecto={PENTAMINO} contador={2}></Project>
       <Footer></Footer>
     </div>
   );
