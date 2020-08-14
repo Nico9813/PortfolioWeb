@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/PortfolioWeb/static/css/main.37930337.chunk.css",
-    "main.js": "/PortfolioWeb/static/js/main.a8b36e25.chunk.js",
-    "main.js.map": "/PortfolioWeb/static/js/main.a8b36e25.chunk.js.map",
+    "main.css": "/PortfolioWeb/static/css/main.661f9513.chunk.css",
+    "main.js": "/PortfolioWeb/static/js/main.6a141c32.chunk.js",
+    "main.js.map": "/PortfolioWeb/static/js/main.6a141c32.chunk.js.map",
     "runtime-main.js": "/PortfolioWeb/static/js/runtime-main.ae590e6e.js",
     "runtime-main.js.map": "/PortfolioWeb/static/js/runtime-main.ae590e6e.js.map",
     "static/css/2.11829350.chunk.css": "/PortfolioWeb/static/css/2.11829350.chunk.css",
-    "static/js/2.0a10b042.chunk.js": "/PortfolioWeb/static/js/2.0a10b042.chunk.js",
-    "static/js/2.0a10b042.chunk.js.map": "/PortfolioWeb/static/js/2.0a10b042.chunk.js.map",
+    "static/js/2.b38a1a96.chunk.js": "/PortfolioWeb/static/js/2.b38a1a96.chunk.js",
+    "static/js/2.b38a1a96.chunk.js.map": "/PortfolioWeb/static/js/2.b38a1a96.chunk.js.map",
     "index.html": "/PortfolioWeb/index.html",
-    "precache-manifest.b555502d1d89472810ae8e8d347300c8.js": "/PortfolioWeb/precache-manifest.b555502d1d89472810ae8e8d347300c8.js",
+    "precache-manifest.4302217105c0b40b17835b61bc132edd.js": "/PortfolioWeb/precache-manifest.4302217105c0b40b17835b61bc132edd.js",
     "service-worker.js": "/PortfolioWeb/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/PortfolioWeb/static/css/2.11829350.chunk.css.map",
-    "static/css/main.37930337.chunk.css.map": "/PortfolioWeb/static/css/main.37930337.chunk.css.map",
-    "static/js/2.0a10b042.chunk.js.LICENSE.txt": "/PortfolioWeb/static/js/2.0a10b042.chunk.js.LICENSE.txt",
+    "static/css/main.661f9513.chunk.css.map": "/PortfolioWeb/static/css/main.661f9513.chunk.css.map",
+    "static/js/2.b38a1a96.chunk.js.LICENSE.txt": "/PortfolioWeb/static/js/2.b38a1a96.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/PortfolioWeb/static/media/logo.5d5d9eef.svg",
     "static/media/prueba.png": "/PortfolioWeb/static/media/prueba.283e46bf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae590e6e.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.0a10b042.chunk.js",
-    "static/css/main.37930337.chunk.css",
-    "static/js/main.a8b36e25.chunk.js"
+    "static/js/2.b38a1a96.chunk.js",
+    "static/css/main.661f9513.chunk.css",
+    "static/js/main.6a141c32.chunk.js"
   ]
 }
