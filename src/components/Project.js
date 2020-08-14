@@ -16,7 +16,7 @@ export const Project = (props) => {
                             <Row style={{marginLeft:1}}>
                                 {proyectoActual.tecnologias.map((item, index) =>
                                     <Col xs={{size:'auto'}} className="tecnologia" >
-                                        <h7>{item}</h7>
+                                        <h7>H: {item}</h7>
                                     </Col>
                                 )}
                             </Row>
