@@ -26,7 +26,7 @@ export const Project = (props) => {
                     </Col>
                     <Col lg={{ size: 5, order: right }} className='projectCol'>
                         <Container>
-                            <img src={proyectoActual.imagenes} width="600"/>
+                            <img src={proyectoActual.imagenes} style={{ maxWidth:'100%', maxHeight:'100%'}}/>
                         </Container>
                     </Col>
             </Row>
