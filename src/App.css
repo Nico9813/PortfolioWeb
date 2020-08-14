@@ -60,6 +60,16 @@
   font-size: calc(10px + 2vmin);
 }
 
+.footer {
+  background-color: rgb(241, 241, 241);
+  height: 100px;
+  align-content: center;
+  align-items: center;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
 .App-link {
   color: #61dafb;
 }
