@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'reactstrap'
+import Carrusel from './Carrusel'
 
 export const Project = (props) => {
 
@@ -26,7 +27,7 @@ export const Project = (props) => {
                     </Col>
                     <Col xs={{size: 12}} lg={{ size: 5, order: right }} className='projectCol'>
                         <Container>
-                            <img src={proyectoActual.imagenes} style={{ maxWidth:'100%', maxHeight:'100%'}}/>
+                            <Carrusel imagenes={proyectoActual.imagenes}/>
                         </Container>
                     </Col>
             </Row>

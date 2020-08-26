@@ -1,0 +1,46 @@
+{
+    "nombre":"Nicolas Gomez",
+    "cv":"#",
+    "github":"#github",
+    "proyectos":[
+        {
+            "titulo": "PRELLO",
+            "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
+            "imagenes": ["./sala_chat_1.png", "./prueba.png"],
+            "tecnologias": [
+                "Python",
+                "React",
+                "Docker",
+                "Redis",
+                "Mysql"
+            ],
+            "github": "https://github.com/Nico9813/Prello"
+        },
+            {
+            "titulo": "PRELLO",
+            "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
+            "imagenes": ["./sala_chat_1.png"],
+            "tecnologias": [
+                "Python",
+                "React",
+                "Docker",
+                "Redis",
+                "Mysql"
+            ],
+            "github": "https://github.com/Nico9813/Prello"
+        },
+        {
+            "titulo": "PRELLO",
+            "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
+            "imagenes": ["./sala_chat_1.png"],
+            "tecnologias": [
+                "Python",
+                "React",
+                "Docker",
+                "Redis",
+                "Mysql"
+            ],
+            "github": "https://github.com/Nico9813/Prello"
+        }
+    ]
+}
