@@ -1,27 +1,30 @@
 {
   "files": {
     "main.css": "/PortfolioWeb/static/css/main.661f9513.chunk.css",
-    "main.js": "/PortfolioWeb/static/js/main.6a141c32.chunk.js",
-    "main.js.map": "/PortfolioWeb/static/js/main.6a141c32.chunk.js.map",
+    "main.js": "/PortfolioWeb/static/js/main.630a87ee.chunk.js",
+    "main.js.map": "/PortfolioWeb/static/js/main.630a87ee.chunk.js.map",
     "runtime-main.js": "/PortfolioWeb/static/js/runtime-main.ae590e6e.js",
     "runtime-main.js.map": "/PortfolioWeb/static/js/runtime-main.ae590e6e.js.map",
     "static/css/2.11829350.chunk.css": "/PortfolioWeb/static/css/2.11829350.chunk.css",
-    "static/js/2.b38a1a96.chunk.js": "/PortfolioWeb/static/js/2.b38a1a96.chunk.js",
-    "static/js/2.b38a1a96.chunk.js.map": "/PortfolioWeb/static/js/2.b38a1a96.chunk.js.map",
+    "static/js/2.b6790067.chunk.js": "/PortfolioWeb/static/js/2.b6790067.chunk.js",
+    "static/js/2.b6790067.chunk.js.map": "/PortfolioWeb/static/js/2.b6790067.chunk.js.map",
     "index.html": "/PortfolioWeb/index.html",
-    "precache-manifest.4302217105c0b40b17835b61bc132edd.js": "/PortfolioWeb/precache-manifest.4302217105c0b40b17835b61bc132edd.js",
+    "precache-manifest.d07222e88e7ca17d2b21f76770b8d4c2.js": "/PortfolioWeb/precache-manifest.d07222e88e7ca17d2b21f76770b8d4c2.js",
     "service-worker.js": "/PortfolioWeb/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/PortfolioWeb/static/css/2.11829350.chunk.css.map",
     "static/css/main.661f9513.chunk.css.map": "/PortfolioWeb/static/css/main.661f9513.chunk.css.map",
-    "static/js/2.b38a1a96.chunk.js.LICENSE.txt": "/PortfolioWeb/static/js/2.b38a1a96.chunk.js.LICENSE.txt",
+    "static/js/2.b6790067.chunk.js.LICENSE.txt": "/PortfolioWeb/static/js/2.b6790067.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/PortfolioWeb/static/media/logo.5d5d9eef.svg",
-    "static/media/prueba.png": "/PortfolioWeb/static/media/prueba.283e46bf.png"
+    "static/media/pentamino_1.png": "/PortfolioWeb/static/media/pentamino_1.a4c6284d.png",
+    "static/media/pentamino_2.png": "/PortfolioWeb/static/media/pentamino_2.1cbe75a5.png",
+    "static/media/prueba.png": "/PortfolioWeb/static/media/prueba.9de9de1d.png",
+    "static/media/sala_chat_1.png": "/PortfolioWeb/static/media/sala_chat_1.9fda2615.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae590e6e.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.b38a1a96.chunk.js",
+    "static/js/2.b6790067.chunk.js",
     "static/css/main.661f9513.chunk.css",
-    "static/js/main.6a141c32.chunk.js"
+    "static/js/main.630a87ee.chunk.js"
   ]
 }
