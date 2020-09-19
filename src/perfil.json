@@ -1,12 +1,14 @@
 {
     "nombre":"Nicolas Gomez",
+    "foto":"/nico2.jpg",
+    "about":"Hi. I’m Ian, a freelance Front-end Developer with 12 years commercial experience creating successful websites.",
     "cv":"#",
-    "github":"#github",
+    "github":"https://github.com/Nico9813",
     "proyectos":[
         {
             "titulo": "PRELLO",
             "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
-            "imagenes": ["./sala_chat_1.png", "./prueba.png"],
+            "imagenes": ["/sala_chat_1.png", "/sala_chat_2.png"],
             "tecnologias": [
                 "Python",
                 "React",
@@ -19,7 +21,7 @@
             {
             "titulo": "PRELLO",
             "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
-            "imagenes": ["./sala_chat_1.png"],
+            "imagenes": ["/sala_chat_1.png"],
             "tecnologias": [
                 "Python",
                 "React",
@@ -32,7 +34,7 @@
         {
             "titulo": "PRELLO",
             "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
-            "imagenes": ["./sala_chat_1.png"],
+            "imagenes": ["/sala_chat_1.png"],
             "tecnologias": [
                 "Python",
                 "React",

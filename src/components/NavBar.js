@@ -10,11 +10,10 @@ import {
     NavLink
 } from 'reactstrap';
 
-export function CustomNavBar() {
+export const CustomNavBar = () => {
     return (
-        <div>
-            <Navbar ficolor="light" light expand="md">
-                <img src={logo} className="App-logo" alt="logo" />
+        <div style={{ backgroundColor: '#f5f5f5' }}>
+            <Navbar ficolor="nigth" light expand="md">
                 <NavbarBrand href="/">{Perfil.nombre}</NavbarBrand>
                 <Nav className="mr-auto" navbar>
                 </Nav>

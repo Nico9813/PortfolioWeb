@@ -11,7 +11,7 @@ export const Project = (props) => {
     return (
         <div>
             <Row className='projectRow' style={{ backgroundColor: left ? '#eff5ff' : '#c2d8fd' }}>
-                <Col xs={{size: 12}} lg={{ size: 5, order: left,offset:1 }} className='projectCol'>
+                <Col xs={{size: 12}} lg={{ size: 3, order: left,offset:1 }} className='projectCol'>
                         <Container>
                             <h2>{proyectoActual.titulo}</h2>
                             <Row style={{marginLeft:1}}>
@@ -25,7 +25,7 @@ export const Project = (props) => {
                             <Button onClick={() => window.location.href= proyectoActual.github } color="primary">View on Github</Button>
                         </Container>
                     </Col>
-                    <Col xs={{size: 12}} lg={{ size: 5, order: right }} className='projectCol'>
+                    <Col xs={{size: 12}} lg={{ size: 7, order: right }} className='projectCol'>
                         <Container>
                             <Carrusel imagenes={proyectoActual.imagenes}/>
                         </Container>

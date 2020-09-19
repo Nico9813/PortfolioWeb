@@ -34,7 +34,7 @@ export const Carrusel = (props) => {
                 onExited={() => setAnimating(false)}
                 key={index}
             >
-                <img src={require(`${item}`)} style={{ width: '100%', Height:'100%' }}/>
+                <img className='imagen_container' src={process.env.PUBLIC_URL + `${item}`} height={'100%'} width={'100%'}/>
             </CarouselItem>
         );
     });

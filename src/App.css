@@ -21,10 +21,23 @@
   min-height: 300px;
   padding: 15px;
   background-color: #c2d8fd;
-  -webkit-box-shadow: 9px 7px 48px -19px rgba(43,42,43,0.57);
-  -moz-box-shadow: 9px 7px 48px -19px rgba(43,42,43,0.57);
-  box-shadow: 9px 7px 48px -19px rgba(43,42,43,0.57);
+  -webkit-box-shadow: 9px 7px 48px -19px black;
+  -moz-box-shadow: 9px 7px 48px -19px black;
+  box-shadow: 9px 7px 48px -19px black;
   
+}
+
+.header_container{
+  border-radius: 15px;
+  background-color: #c2d8fd;
+  margin: 10px;
+  padding: 10px;
+  -webkit-box-shadow: inset 9px 9px 34px -15px black;
+  -moz-box-shadow: inset 9px 9px 34px -15px black;
+  box-shadow: inset 9px 9px 34px -15px black;
+  -webkit-box-shadow: 9px 9px 34px -15px black;
+  -moz-box-shadow: 9px 9px 34px -15px black;
+  box-shadow: 9px 9px 34px -15px black;
 }
 
 .projectCol {
@@ -37,6 +50,17 @@
   border-color: #282c34;
 }
 
+.imagen_container{
+  border:10px white;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 10px 10px 34px -15px black;
+  -moz-box-shadow: inset 10px 10px 34px -15px black;
+  box-shadow: inset 10px 10px 34px -15px black;
+  -webkit-box-shadow: 10px 10px 34px -15px black;
+  -moz-box-shadow: 10px 10px 34px -15px black;
+  box-shadow: 10px 10px 34px -15px black;
+}
+
 .tecnologia {
   padding: 6px;
   background-color: black;
@@ -44,24 +68,23 @@
   margin: 1px;
   align-content: center;
   align-items: center;
-  -webkit-box-shadow: inset 10px 10px 34px -15px rgba(0,0,0,0.31);
-  -moz-box-shadow: inset 10px 10px 34px -15px rgba(0,0,0,0.31);
-  box-shadow: inset 10px 10px 34px -15px rgba(0,0,0,0.31);
-  -webkit-box-shadow: 10px 10px 34px -15px rgba(0,0,0,0.31);
-  -moz-box-shadow: 10px 10px 34px -15px rgba(0,0,0,0.31);
-  box-shadow: 10px 10px 34px -15px rgba(0,0,0,0.31);
+  -webkit-box-shadow: inset 10px 10px 34px -15px black;
+  -moz-box-shadow: inset 10px 10px 34px -15px black;
+  box-shadow: inset 10px 10px 34px -15px black;
+  -webkit-box-shadow: 10px 10px 34px -15px black;
+  -moz-box-shadow: 10px 10px 34px -15px black;
+  box-shadow: 10px 10px 34px -15px black;
 }
 
 .App-header {
   min-height: 350px;
+  background-color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
 }
 
 .footer {
-  background-color: rgb(241, 241, 241);
+  background-color: white;
   height: 100px;
   align-content: center;
   align-items: center;
@@ -73,7 +96,7 @@
 .App-link {
   color: #61dafb;
 }
-
+/*
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -82,3 +105,4 @@
     transform: rotate(360deg);
   }
 }
+*/
