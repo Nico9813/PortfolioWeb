@@ -1,4 +1,4 @@
-### Descripcion
+## Descripcion
 
 Este proyecto es un portfolio facilmente personalizable por cualquier persona. Posee un diseño responsive lo cual hace comoda su visualizacion tanto en navegadores como en celulares. Es generado como un sitio estatico utilizando react y cargado en base a un archivo json con los datos que se quieren mostrar.
 
