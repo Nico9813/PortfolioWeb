@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Descripcion
 
-## Available Scripts
+Este proyecto es un portfolio facilmente personalizable por cualquier persona. Posee un diseño responsive lo cual hace comoda su visualizacion tanto en navegadores como en celulares. Es generado como un sitio estatico utilizando react y cargado en base a un archivo json con los datos que se quieren mostrar.
 
-In the project directory, you can run:
+Tambien esta configurado para hostearse en Github Pages utilizando un dominio configurable.
 
-### `yarn start`
+Se puede ver ejemplo de su uso en [mi propio portfolio](https://nico9813.github.io/PortfolioWeb/)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Guia de instalacion
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Ejecucar en la terminal los siguientes comandos:
 
-### `yarn test`
+1. `git clone https://github.com/Nico9813/PortfolioWeb.git`
+2. `npm install`
+3. `npm start`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Finalmente abrir [http://localhost:3000](http://localhost:3000) para visualizarlo en el navegador
 
-### `yarn build`
+## Guia de configuracion
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Cargar todas las imagenes que se vayan a utilizar en la carpeta `/public`.
+2. Abrir el archivo `perfil.json` y configurarlo con sus datos personales.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**Nota:** se encuentra cargado con mis propios datos personales a modo de ejemplo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Guia de despliegue en github pages
 
-### `yarn eject`
+1. Modificar el atributo **homepage** del archivo `/package.json` con el dominio con el que se desea hostear la aplicacion
+2. Ejecutar el comando `gh-pages -d build`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Una vez finalizada la ejecucion de este comando su portfolio estara desplegado en el dominio indicado.
