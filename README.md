@@ -1,6 +1,6 @@
 ## Descripcion
 
-Este proyecto es un portfolio facilmente personalizable por cualquier persona. Posee un diseño responsive lo cual hace comoda su visualizacion tanto en navegadores como en celulares. Es generado como un sitio estatico utilizando react y cargado en base a un archivo json con los datos que se quieren mostrar.
+Este proyecto es un portfolio facilmente personalizable para que puedas mostrar todos tus proyectos. Posee un diseño responsive lo cual hace comoda su visualizacion tanto en navegadores como en celulares. Es generado como un sitio estatico utilizando react y cargado en base a un archivo json con los datos que se quieren mostrar.
 
 Tambien esta configurado para hostearse en Github Pages utilizando un dominio configurable.
 
