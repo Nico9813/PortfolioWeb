@@ -1,7 +1,6 @@
 .App {
-  text-align: center;
-  margin: 5px;
-  padding: 5px;
+  overflow-x: hidden;
+  background-color: white;
 }
 
 .App-logo {
@@ -20,11 +19,12 @@
   align-items: center;
   min-height: 300px;
   padding: 15px;
+  margin: 25px;
+  border-radius: 10px;
   background-color: #c2d8fd;
   -webkit-box-shadow: 9px 7px 48px -19px black;
   -moz-box-shadow: 9px 7px 48px -19px black;
   box-shadow: 9px 7px 48px -19px black;
-  
 }
 
 .header_container{
@@ -38,6 +38,11 @@
   -webkit-box-shadow: 9px 9px 34px -15px black;
   -moz-box-shadow: 9px 9px 34px -15px black;
   box-shadow: 9px 9px 34px -15px black;
+}
+
+.project{
+  align-content: center;
+  align-items: center;
 }
 
 .projectCol {
@@ -103,12 +108,13 @@
   margin: auto;
   border: black;
   border-width: 1px;
+  font-size: 20px;
 }
 
 .brand{
   display: flex;
   flex-direction: row;
-  width: 215px;
+  width: 195px;
   justify-content: space-between;
 }
 
@@ -122,4 +128,23 @@
 
 .App-link {
   color: #61dafb;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
 }
