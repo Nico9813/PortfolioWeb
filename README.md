@@ -21,11 +21,15 @@ Finalmente abrir [http://localhost:3000](http://localhost:3000) para visualizarl
 1. Cargar todas las imagenes que se vayan a utilizar en la carpeta `/public`.
 2. Abrir el archivo `perfil.json` y configurarlo con sus datos personales.
 
+<img src="https://github.com/Nico9813/PortfolioWeb/blob/master/PerfilEjemplo.png?raw=true" width="700px" height="675px"/>
+
 **Nota:** se encuentra cargado con mis propios datos personales a modo de ejemplo.
 
 ## Guia de despliegue en github pages
 
 1. Modificar el atributo **homepage** del archivo `/package.json` con el dominio con el que se desea hostear la aplicacion
-2. Ejecutar el comando `gh-pages -d build`
+2. Ejecutar el comando `gh-pages -d build` (Agregado ya con el comando `npm run deploy`)
+
+<img src="https://github.com/Nico9813/PortfolioWeb/blob/master/GhPages.png?raw=true" width="500px" height="300px"/>
 
 Una vez finalizada la ejecucion de este comando su portfolio estara desplegado en el dominio indicado.
