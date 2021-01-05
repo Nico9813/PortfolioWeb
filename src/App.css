@@ -1,6 +1,6 @@
 .App {
   overflow-x: hidden;
-  background-color: white;
+  background-color:#292929;
 }
 
 .App-logo {
@@ -19,7 +19,7 @@
   align-items: center;
   min-height: 300px;
   padding: 15px;
-  margin: 25px;
+  margin: 15px;
   border-radius: 10px;
   background-color: #c2d8fd;
   -webkit-box-shadow: 9px 7px 48px -19px black;
@@ -99,7 +99,7 @@
 }
 
 .nav-bar{
-  background-color: black;
+  background-color: #292929;
 }
 
 .titulo{
