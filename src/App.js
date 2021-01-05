@@ -11,7 +11,7 @@ import * as Perfil from './perfil.json'
 function App() {
   return (
     <div>
-      <CustomNavBar></CustomNavBar>
+      <CustomNavBar foto={Perfil.foto}></CustomNavBar>
       <Header foto={Perfil.foto} about={Perfil.about}></Header>
       {Perfil.proyectos.map( (proyecto, index) => {
         return(

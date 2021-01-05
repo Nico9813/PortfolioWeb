@@ -93,16 +93,33 @@
   right:0;
 }
 
+.nav-bar{
+  background-color: black;
+}
+
+.titulo{
+  color:white;
+  font-weight: normal;
+  margin: auto;
+  border: black;
+  border-width: 1px;
+}
+
+.brand{
+  display: flex;
+  flex-direction: row;
+  width: 215px;
+  justify-content: space-between;
+}
+
+.perfil{
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 15px;
+  margin: 2px;
+}
+
 .App-link {
   color: #61dafb;
 }
-/*
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-*/
