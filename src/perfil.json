@@ -16,33 +16,72 @@
                 "Redis",
                 "Mysql"
             ],
-            "github": "https://github.com/Nico9813/Prello"
+            "views": [
+                {
+                    "github": "https://github.com/Nico9813/Prello"
+                },
+                {
+                    "live": "https://prello.vercel.app/"
+                }
+            ]
         },
             {
-            "titulo": "PRELLO",
-            "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
+            "titulo": "SALA CHAT",
+            "descripcion": "Sala de chat en la cual se puede editar un documento en simulteano con todas las personas conectadas",
             "imagenes": ["/sala_chat_1.png"],
             "tecnologias": [
-                "Python",
-                "React",
-                "Docker",
-                "Redis",
-                "Mysql"
+                "WebSockets",
+                "TypeScript",
+                "NodeJS",
+                "React"
             ],
-            "github": "https://github.com/Nico9813/Prello"
+            "views": [
+                {
+                    "github": "https://github.com/Nico9813/Prello"
+                },
+                {
+                    "live": "https://prello.vercel.app/"
+                }
+            ]
         },
         {
-            "titulo": "PRELLO",
+            "titulo": "ESTRATEGIA CURSADA UTN",
             "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
             "imagenes": ["/sala_chat_1.png"],
             "tecnologias": [
-                "Python",
-                "React",
-                "Docker",
-                "Redis",
-                "Mysql"
+                "React Native",
+                "Redux",
+                "Redux-Persist"
             ],
-            "github": "https://github.com/Nico9813/Prello"
+            "views": [
+                {
+                    "github": "https://github.com/Nico9813/Prello"
+                },
+                {
+                    "live": "https://prello.vercel.app/"
+                }
+            ]
+        },
+        {
+            "titulo": "PENTAMINO",
+            "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
+            "imagenes": [
+                "/sala_chat_1.png"
+            ],
+            "tecnologias": [
+                "React Native",
+                "PanResponder",
+                "Redux",
+                "Redux-Persist"
+            ],
+            "views": [
+                {
+                    "github": "https://github.com/Nico9813/Prello"
+                },
+                {
+                    "live": "https://prello.vercel.app/"
+                }
+            ]
         }
     ]
 }
