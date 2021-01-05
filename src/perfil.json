@@ -32,6 +32,7 @@
             "tecnologias": [
                 "WebSockets",
                 "TypeScript",
+                "Auth0",
                 "NodeJS",
                 "React"
             ],
