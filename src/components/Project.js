@@ -13,7 +13,7 @@ export const Project = (props) => {
             <Row className='projectRow' style={{ backgroundColor: left ? 'black' : '#4287f5' }}>
                 <Col xs={{size: 12}} lg={{ size: 3, order: left,offset:1 }} className='projectCol'>
                         <Container>
-                            <h2 style={{ color: left ? '#ebebeb' : 'black' }}>{proyectoActual.titulo}</h2>
+                            <h2 style={{ color: left ? '#ebebeb' : 'black'}}>{proyectoActual.titulo}</h2>
                             <Row style={{marginLeft:1}}>
                                 {proyectoActual.tecnologias.map((item, index) =>
                                     <Col xs={{ size: 'auto' }} className="tecnologia" style={{ backgroundColor: left ? '#4287f5' : 'black' }}>
