@@ -24,7 +24,7 @@ export const CustomNavBar = ({foto}) => {
             </Nav>
                 
             <NavLink href={Perfil.github}>Github</NavLink>
-            <NavLink href={Perfil.cv}>Resume</NavLink>
+            <NavLink href={Perfil.cv} download>CV</NavLink>
         </Navbar>
     );
 }
