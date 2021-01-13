@@ -22,7 +22,7 @@ export const Project = (props) => {
                                     </Col>
                                 )}
                             </Row>
-                            <div className="descripcion_container" style={{backgroundColor: left ? '#e6e6e6' : '#5eb2ff'}}>
+                            <div>
                                 <p>{descripcion}</p>
                             </div>
 
