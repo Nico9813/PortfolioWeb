@@ -5,7 +5,7 @@ import Carrusel from './Carrusel'
 export const Project = (props) => {
 
     const { proyecto, contador } = props
-    const { titulo, descripcion, tecnologias, views } = proyecto
+    const { titulo, descripcion, tecnologias, views, downloads } = proyecto
     const left = contador % 2 
     const right = (contador + 1) % 2
 
@@ -22,11 +22,21 @@ export const Project = (props) => {
                                     </Col>
                                 )}
                             </Row>
-                            <p>{descripcion}</p>
+                            <div className="descripcion_container" style={{backgroundColor: left ? '#e6e6e6' : '#5eb2ff'}}>
+                                <p>{descripcion}</p>
+                            </div>
+
                             <Row style={{ marginLeft: 0.7 }}>
-                                {views.map((value) => 
-                                    <Button style={{ marginRight: "3px" }} onClick={() => window.location.href = value[Object.keys(value)]} color="primary">View on {Object.keys(value)}</Button>
-                                )}
+                                {views &&
+                                    Object.keys(views).map( key => 
+                                        <a href={process.env.PUBLIC_URL + views[key]} target="_blank"><Button style={{ margin: "3px" }} color="primary">View on {key}</Button></a>
+                                    )
+                                }
+                                {downloads && 
+                                    Object.keys(downloads).map( key => 
+                                        <a href={process.env.PUBLIC_URL + downloads[key]} download><Button style={{ margin: "3px" }} color="success">Download {key}</Button></a>
+                                    )
+                                }
                             </Row>
                         </Container>
                     </Col>

@@ -1,14 +1,14 @@
 {
     "nombre":"Nicolas Gomez",
-    "foto":"/nico2.jpg",
+    "foto":"/perfil/nico2.jpg",
     "about":"Hi. I’m Ian, a freelance Front-end Developer with 12 years commercial experience creating successful websites.",
-    "cv":"/Cv2021.pdf",
+    "cv":"/perfil/Cv2021.pdf",
     "github":"https://github.com/Nico9813",
     "proyectos":[
         {
             "titulo": "PRELLO",
             "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
-            "imagenes": ["/sala_chat_1.png", "/sala_chat_2.png"],
+            "imagenes": ["/sala_chat/sala_chat_1.png", "/sala_chat/sala_chat_2.png"],
             "tecnologias": [
                 "Python",
                 "React",
@@ -16,19 +16,15 @@
                 "Redis",
                 "Mysql"
             ],
-            "views": [
-                {
-                    "github": "https://github.com/Nico9813/Prello"
-                },
-                {
-                    "live": "https://prello.vercel.app/"
-                }
-            ]
+            "views": {
+                "github": "https://github.com/Nico9813/Prello",
+                "live": "https://prello.vercel.app/"
+            }
         },
             {
             "titulo": "SALA CHAT",
             "descripcion": "Sala de chat en la cual se puede editar un documento en simulteano con todas las personas conectadas",
-            "imagenes": ["/sala_chat_1.png"],
+            "imagenes": ["/sala_chat/sala_chat_1.png"],
             "tecnologias": [
                 "WebSockets",
                 "TypeScript",
@@ -36,53 +32,43 @@
                 "NodeJS",
                 "React"
             ],
-            "views": [
-                {
-                    "github": "https://github.com/Nico9813/Prello"
-                },
-                {
-                    "live": "https://prello.vercel.app/"
-                }
-            ]
+            "views": {
+                "github": "https://github.com/Nico9813/Prello",
+                "live": "https://prello.vercel.app/"
+            }
         },
         {
             "titulo": "ESTRATEGIA CURSADA UTN",
             "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
-            "imagenes": ["/sala_chat_1.png"],
+            "imagenes": ["/sala_chat/sala_chat_1.png"],
             "tecnologias": [
                 "React Native",
                 "Redux",
                 "Redux-Persist"
             ],
-            "views": [
-                {
-                    "github": "https://github.com/Nico9813/Prello"
-                },
-                {
-                    "live": "https://prello.vercel.app/"
-                }
-            ]
+            "views":{
+                "github": "https://github.com/Nico9813/Prello",
+                "live": "https://prello.vercel.app/"
+            }
         },
         {
             "titulo": "PENTAMINO",
             "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
             "imagenes": [
-                "/sala_chat_1.png"
+                "/sala_chat/sala_chat_1.png"
             ],
             "tecnologias": [
                 "React Native",
-                "PanResponder",
-                "Redux",
-                "Redux-Persist"
+                "Expo",
+                "AsyncStorage"
             ],
-            "views": [
-                {
-                    "github": "https://github.com/Nico9813/Prello"
-                },
-                {
-                    "live": "https://prello.vercel.app/"
-                }
-            ]
+            "views": {
+                "github": "https://github.com/Nico9813/Prello"
+            },
+            "downloads": {
+                "android":"/pentamino/Pentamino.apk",
+                "ios":"/pentamino/Pentamino.apk"
+            }
         }
     ]
 }
