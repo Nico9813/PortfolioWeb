@@ -25,7 +25,6 @@ export const CustomNavBar = ({foto}) => {
                 
             <NavLink href={Perfil.github}>Github</NavLink>
             <NavLink href={process.env.PUBLIC_URL + Perfil.cv} target="_blank">CV</NavLink>
-            <NavLink href={process.env.PUBLIC_URL + "/Pentamino.apk"} download>APK</NavLink>
         </Navbar>
     );
 }
