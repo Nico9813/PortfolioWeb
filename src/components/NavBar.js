@@ -25,6 +25,7 @@ export const CustomNavBar = ({foto}) => {
                 
             <NavLink href={Perfil.github}>Github</NavLink>
             <NavLink href={Perfil.cv} download>CV</NavLink>
+            <NavLink href={"Pentamino.apk"} download>APK</NavLink>
         </Navbar>
     );
 }
