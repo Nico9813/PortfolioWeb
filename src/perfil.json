@@ -8,7 +8,7 @@
         {
             "titulo": "PRELLO",
             "descripcion": "Aplicacion de administracion de proyectos con interfaz web",
-            "imagenes": ["/sala_chat/sala_chat_1.png", "/sala_chat/sala_chat_2.png"],
+            "imagenes": ["/prello/prello_1.png", "/prello/prello_2.png", "/prello/prello_3.png", "/prello/prello_4.png"],
             "tecnologias": [
                 "Python",
                 "React",
@@ -66,8 +66,7 @@
                 "github": "https://github.com/Nico9813/Prello"
             },
             "downloads": {
-                "android":"/pentamino/Pentamino.apk",
-                "ios":"/pentamino/Pentamino.apk"
+                "android":"/pentamino/Pentamino.apk"
             }
         }
     ]
