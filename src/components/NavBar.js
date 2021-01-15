@@ -23,7 +23,7 @@ export const CustomNavBar = ({foto}) => {
             <Nav className="mr-auto" navbar>
             </Nav>
                 
-            <NavLink href={Perfil.github}>Github</NavLink>
+            <NavLink href={Perfil.github} >Github</NavLink>
             <NavLink href={process.env.PUBLIC_URL + Perfil.cv} target="_blank">CV</NavLink>
         </Navbar>
     );

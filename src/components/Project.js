@@ -10,26 +10,26 @@ export const Project = (props) => {
     const right = (contador + 1) % 2
 
     return (
-        <div className='projectRow' style={{ backgroundColor: left ? 'white' : '#7abfff' }}>
+        <div className='projectRow' style={{ backgroundColor: left ? 'rgba(55, 55, 55, 0.2)' : '#7abfff'}}>
             <Row className='project'>
                 <Col xs={{size: 12}} lg={{ size: 3, order: left,offset:1 }} className='projectCol'>
                         <Container>
-                            <h2>{titulo}</h2>
-                            <h6>{anio}</h6>
+                            <h2 style={{ color: left? 'white' : 'black'  }}>{titulo}</h2>
+                            <h6 style={{ color: left? 'white' : 'black' }}>{anio}</h6>
                             <Row style={{ marginBottom: 8, marginLeft: 0}}>
                                 {tecnologias.map((item) =>
                                     <Col xs={{ size: 'auto' }} className="tecnologia" style={{ backgroundColor: 'black' }}>
-                                        <h7>{item}</h7>
+                                        <h7> {item}</h7>
                                     </Col>
                                 )}
                             </Row>
                             <div>
-                                <p>{descripcion}</p>
+                            <p style={{ color: left? 'white' : 'black' }}>{descripcion}</p>
                             </div>
                             <Row style={{ marginLeft: -2 }}>
                                 {views &&
                                     Object.keys(views).map( key => 
-                                        <a href={process.env.PUBLIC_URL + views[key]} target="_blank"><Button style={{ margin: "3px" }} color="primary">Ver {key}</Button></a>
+                                        <a href={views[key]} target="_blank" rel="noopener noreferrer"><Button style={{ margin: "3px" }} color="primary">Ver {key}</Button></a>
                                     )
                                 }
                                 {downloads && 
