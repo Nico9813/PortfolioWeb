@@ -29,7 +29,7 @@ export const Project = (props) => {
                             <Row style={{ marginLeft: -2 }}>
                                 {views &&
                                     Object.keys(views).map( key => 
-                                        <a href={views[key]} target="_blank" rel="noopener noreferrer"><Button style={{ margin: "3px" }} color="primary">Ver {key}</Button></a>
+                                        <a href={views[key]} target="_blank" rel="noopener noreferrer"><Button style={{ margin: "3px", backgroundColor:'white', color: 'black'}}>Ver {key}</Button></a>
                                     )
                                 }
                                 {downloads && 
