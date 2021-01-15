@@ -102,13 +102,12 @@
 }
 
 .footer {
-  background-color: white;
+  background-color:#292929;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
   height: 100px;
-  align-content: center;
-  align-items: center;
-  left:0;
-  bottom:0;
-  right:0;
 }
 
 .nav-bar{

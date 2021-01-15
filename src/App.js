@@ -20,6 +20,7 @@ function App() {
             <Project proyecto={proyecto} contador={index}></Project>
           )
         })}
+        <Footer></Footer>
       </div>
   );
 }
