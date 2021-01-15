@@ -1,7 +1,6 @@
 import React from 'react';
 import { CustomNavBar } from './components/NavBar'
 import { Project } from './components/Project'
-import { Footer } from './components/Footer'
 
 import './App.css';
 
@@ -18,7 +17,6 @@ function App() {
             <Project proyecto={proyecto} contador={index}></Project>
           )
         })}
-        <Footer></Footer>
       </div>
   );
 }
