@@ -5,7 +5,7 @@ import Carrusel from './Carrusel'
 export const Project = (props) => {
 
     const { proyecto, contador } = props
-    const { titulo, descripcion, tecnologias, views, downloads } = proyecto
+    const { titulo, anio, descripcion, tecnologias, views, downloads } = proyecto
     const left = contador % 2 
     const right = (contador + 1) % 2
 
@@ -15,7 +15,8 @@ export const Project = (props) => {
                 <Col xs={{size: 12}} lg={{ size: 3, order: left,offset:1 }} className='projectCol'>
                         <Container>
                             <h2>{titulo}</h2>
-                            <Row style={{marginLeft:0.7}}>
+                            <h6>{anio}</h6>
+                            <Row style={{ marginBottom: 8, marginLeft: 0}}>
                                 {tecnologias.map((item) =>
                                     <Col xs={{ size: 'auto' }} className="tecnologia" style={{ backgroundColor: 'black' }}>
                                         <h7>{item}</h7>
@@ -25,16 +26,15 @@ export const Project = (props) => {
                             <div>
                                 <p>{descripcion}</p>
                             </div>
-
-                            <Row style={{ marginLeft: 0.7 }}>
+                            <Row style={{ marginLeft: -2 }}>
                                 {views &&
                                     Object.keys(views).map( key => 
-                                        <a href={process.env.PUBLIC_URL + views[key]} target="_blank"><Button style={{ margin: "3px" }} color="primary">View on {key}</Button></a>
+                                        <a href={process.env.PUBLIC_URL + views[key]} target="_blank"><Button style={{ margin: "3px" }} color="primary">Ver {key}</Button></a>
                                     )
                                 }
                                 {downloads && 
                                     Object.keys(downloads).map( key => 
-                                        <a href={process.env.PUBLIC_URL + downloads[key]} download><Button style={{ margin: "3px" }} color="success">Download {key}</Button></a>
+                                        <a href={process.env.PUBLIC_URL + downloads[key]} download><Button style={{ margin: "3px" }} color="success">Descargar {key}</Button></a>
                                     )
                                 }
                             </Row>
