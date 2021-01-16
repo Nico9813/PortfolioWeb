@@ -13,7 +13,7 @@ export const Project = (props) => {
         <div className='projectRow' style={{ backgroundColor: left ? 'white' : '#7abfff' }}>
             <Row className='project'>
                 <Col xs={{size: 12}} lg={{ size: 3, order: left,offset:1 }} className='projectCol'>
-                        <Container style={{margin: 30}} >
+                        <Container>
                             <h2>{titulo}</h2>
                             <h6>{anio}</h6>
                             <Row style={{ marginBottom: 8, marginLeft: 0}}>
