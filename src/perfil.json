@@ -47,7 +47,7 @@
             "anio": "2020",
             "descripcion": "Aplicacion mobile para generar planes de realizacion de una carreara desde cualquier punto de la misma hasta cursar/rendir una materia determinada o bien la finalizacion del plan de estudio.",
             "imagenes": [
-                "/sala_chat/sala_chat_1.png"
+                "/estrategia_cursada/estrategia_cursada_1.png"
             ],
             "tecnologias": [
                 "React Native",
@@ -58,7 +58,7 @@
                 "en github": "https://github.com/Nico9813/Estrategia_carrera"
             },
             "downloads": {
-                "android": "/pentamino/Pentamino.apk"
+                "android": "/estrategia_cursada/Estrategia_cursada.apk"
             }
         },
         {
