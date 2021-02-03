@@ -5,6 +5,27 @@
     "github":"https://github.com/Nico9813",
     "proyectos":[
         {
+            "titulo": "EVENT REMINDER",
+            "anio": "2021",
+            "descripcion": "Aplicacion web que permite crear eventos y que cualquiera pueda suscribirse a ellos y se les notificara por mail cuando esten a punto de empezar. Soporta eventos repetibles en ciertos intervalos diarios, semanales, mensaules, etc.",
+            "imagenes": [
+                "/event_reminder/event_reminder_1.png"
+            ],
+            "tecnologias": [
+                "Serverless",
+                "AWS",
+                "CloudFormation",
+                "LAMBDA",
+                "DynamoDB",
+                "S3 Bucket",
+                "Microservicios"
+
+            ],
+            "views": {
+                "en github": "https://github.com/Nico9813/EventReminderServerless"
+            }
+        },
+        {
             "titulo": "PRELLO",
             "anio": "2020 - 2021",
             "descripcion": "Aplicacion de administracion de proyectos con interfaz web responsive. Permite asignacion de acciones a ejecutar ante el movimiento de una tarea.",
