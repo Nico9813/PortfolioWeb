@@ -16,14 +16,14 @@ export const Project = (props) => {
                         <Container>
                             <h2>{titulo}</h2>
                             <h6>{anio}</h6>
-                            <Row style={{ marginBottom: 8, marginLeft: 0}}>
+                            <Row className="tecnologiasContainer" style={{ marginBottom: 8, marginLeft: 0}}>
                                 {tecnologias.map((item) =>
                                     <Col xs={{ size: 'auto' }} className="tecnologia"> 
                                         <p>{item}</p>
                                     </Col>
                                 )}
                             </Row>
-                            <div>
+                            <div className="description">
                                 <p>{descripcion}</p>
                             </div>
                             <Row style={{ marginLeft: -2 }}>
