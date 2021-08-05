@@ -15,7 +15,7 @@
 }
 
 .description{
-  text-align: center;
+  text-align: justify;
   text-justify: inter-word;
 }
 
@@ -32,9 +32,9 @@
   -webkit-box-shadow: 9px 7px 48px -19px black;
   -moz-box-shadow: 9px 7px 48px -19px black;
   box-shadow: 9px 7px 48px -19px black;
-box-shadow: 0px 0px 151px -59px rgba(0,0,0,0.75) inset;
--webkit-box-shadow: 0px 0px 151px -59px rgba(0,0,0,0.75) inset;
--moz-box-shadow: 0px 0px 151px -59px rgba(0,0,0,0.75) inset;
+  box-shadow: 0px 0px 151px -59px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 0px 0px 151px -59px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 0px 0px 151px -59px rgba(0,0,0,0.75) inset;
 }
 
 .header_container{
@@ -51,8 +51,8 @@ box-shadow: 0px 0px 151px -59px rgba(0,0,0,0.75) inset;
 }
 
 .tecnologiasContainer{
-  display:flex;
-  justify-content: center;
+  margin-left: 0px;
+  margin-bottom: 8px;
 }
 
 .project{
@@ -95,7 +95,7 @@ box-shadow: 0px 0px 151px -59px rgba(0,0,0,0.75) inset;
 }
 
 .tecnologia {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   margin: 1px;
   font-size: 14px;

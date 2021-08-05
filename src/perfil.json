@@ -7,7 +7,7 @@
         {
             "titulo": "EVENT REMINDER",
             "anio": "2021",
-            "descripcion": "Aplicacion web que permite crear eventos y que cualquiera pueda suscribirse a ellos y se les notificara por mail cuando esten a punto de empezar. Soporta eventos repetibles en ciertos intervalos diarios, semanales, mensaules, etc.",
+            "descripcion": "Aplicacion web que permite crear eventos y que cualquiera pueda suscribirse a ellos y se les notificara por mail cuando esten a punto de empezar. Soporta eventos repetibles en ciertos intervalos diarios, semanales, mensuales, etc.",
             "imagenes": [
                 "/event_reminder/event_reminder_1.png"
             ],
