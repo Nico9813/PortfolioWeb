@@ -18,8 +18,8 @@ export const Project = (props) => {
                             <h6>{anio}</h6>
                             <Row style={{ marginBottom: 8, marginLeft: 0}}>
                                 {tecnologias.map((item) =>
-                                    <Col xs={{ size: 'auto' }} className="tecnologia" style={{ backgroundColor: 'black' }}>
-                                        <h7>{item}</h7>
+                                    <Col xs={{ size: 'auto' }} className="tecnologia"> 
+                                        <p>{item}</p>
                                     </Col>
                                 )}
                             </Row>

@@ -15,10 +15,9 @@
                 "Serverless",
                 "AWS",
                 "CloudFormation",
-                "LAMBDA",
+                "Lambda",
                 "DynamoDB",
-                "S3 Bucket",
-                "Microservicios"
+                "S3 Bucket"
 
             ],
             "views": {
@@ -35,12 +34,12 @@
                 "NextJS",
                 "Docker",
                 "NodeJS",
-                "Mysql"
+                "Mysql",
+                "Auth0"
             ],
             "views": {
                 "frontend en github": "https://github.com/Nico9813/Prello_front",
-                "API en github": "https://github.com/Nico9813/Prello_API",
-                "en vivo": "https://prello.vercel.app/"
+                "API en github": "https://github.com/Nico9813/Prello_API"
             }
         },
         {
@@ -95,22 +94,7 @@
                 "React"
             ],
             "views": {
-                "en github": "https://github.com/Nico9813/Sala_chat",
-                "en vivo": "https://prello.vercel.app/"
-            }
-        },{
-            "titulo": "PORTFOLIO",
-            "anio": "2020",
-            "descripcion": "Plantilla portfolio web responsive configurable mediante un archivo JSON",
-            "imagenes": [
-                "/portfolio_web/portfolio_1.png"
-            ],
-            "tecnologias": [
-                "React",
-                "GHpages"
-            ],
-            "views": {
-                "en github": "https://github.com/Nico9813/PortfolioWeb"
+                "en github": "https://github.com/Nico9813/Sala_chat"
             }
         }
     ]
